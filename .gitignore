@@ -1,0 +1,5 @@
+/debian/.debhelper
+/debian/vanilla-dev-notice
+/debian/vanilla-dev-notice.substvars
+/debian/vanilla-dev-notice.debhelper.log
+/mesonbuild
