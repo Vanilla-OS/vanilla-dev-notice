@@ -1,0 +1,24 @@
+Source: vanilla-dev-notice
+Section: utils
+Priority: optional
+Maintainer: Mirko Brombin <send@mirko.pm>
+Build-Depends: 
+            build-essential,
+            debhelper,
+            meson,
+            libadwaita-1-dev,
+            gettext,
+            make,
+            valac,
+            desktop-file-utils
+Homepage: https://github.com/mirkobrombin/vanilla-dev-notice/
+Vcs-Browser: hhttps://github.com/vanilla-os/vanilla-dev-notice
+Vcs-Git: https://github.com/mirkobrombin/vanilla-dev-notice.git
+Rules-Requires-Root: no
+
+Package: vanilla-dev-notice
+Architecture: any
+Depends: libadwaita-1-0,
+         gir1.2-gtk-4.0,
+         gir1.2-adw-1
+Description: A simple utility which shows some useful information to the Vanilla OS testers.

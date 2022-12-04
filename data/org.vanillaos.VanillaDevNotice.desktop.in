@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Vanilla Developer Preview
+Exec=vanilla-dev-notice
+Icon=org.vanillaos.VanillaDevNotice
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

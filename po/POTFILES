@@ -1,0 +1,6 @@
+data/org.vanillaos.VanillaDevNotice.desktop.in
+data/org.vanillaos.VanillaDevNotice.appdata.xml.in
+data/org.vanillaos.VanillaDevNotice.gschema.xml
+src/main.vala
+src/window.vala
+src/window.ui
