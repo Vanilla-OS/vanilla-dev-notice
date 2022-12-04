@@ -45,21 +45,9 @@
                 <child>
                   <object class="AdwPreferencesGroup">
                     <child>
-                      <object class="AdwExpanderRow">
+                      <object class="AdwActionRow">
                         <property name="title" translatable="yes">Disclaimer</property>
                         <property name="subtitle" translatable="yes">This is a development preview, so using it as a daily driver is not recommended. If you get any error, please report it to the testing-issues repository on GitHub or to the Vanilla OS Discord server, to help us improve Vanilla OS before the official release.</property>
-                        <child>
-                          <object class="AdwActionRow">
-                            <property name="title" translatable="yes">Blank post-installation script</property>
-                            <property name="subtitle" translatable="yes">The installation process is divided into 2 stages: installation and post-installation. During the second stage the output is not displayed even if it is still running. Wait for the "Done!" appears to understand when everything is ready.</property>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="AdwActionRow">
-                            <property name="title" translatable="yes">No GNOME Extensions</property>
-                            <property name="subtitle" translatable="yes">GNOME Extensions cannot be installed and do not appear in the GNOME Extensions Manager. We are investigating the issue and will fix it as soon as possible.</property>
-                          </object>
-                        </child>
                       </object>
                     </child>
                     <child>
