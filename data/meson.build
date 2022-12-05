@@ -12,6 +12,11 @@ if desktop_utils.found()
   test('Validate desktop file', desktop_utils, args: [desktop_file])
 endif
 
+install_data(
+  'org.vanillaos.VanillaDevNotice.autostart.desktop',
+  install_dir: join_paths(get_option('sysconfdir'), 'xdg', 'autostart')
+)
+
 appstream_file = i18n.merge_file(
         input: 'org.vanillaos.VanillaDevNotice.appdata.xml.in',
        output: 'org.vanillaos.VanillaDevNotice.appdata.xml',

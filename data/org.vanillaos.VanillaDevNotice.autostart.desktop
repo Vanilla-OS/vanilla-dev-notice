@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Vanilla Developer Preview
+Exec=vanilla-dev-notice
+Terminal=false
+Type=Application
+X-GNOME-Autostart-Notify=false
+X-GNOME-AutoRestart=true
+X-GNOME-Autostart-enabled=true

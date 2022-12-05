@@ -1,5 +1,5 @@
-vanilla-dev-notice (0.0.2) kinetic; urgency=low
+vanilla-dev-notice (0.0.3) kinetic; urgency=critical
 
-  * First release
+  * Install autostart unit
 
- -- Mirko Brombin <send@mirko.pm>  Thu, 20 Sep 2022 22:01:00 +0000
+ -- Mirko Brombin <send@mirko.pm>  Mon, 05 Dec 2022 22:01:00 +0000
