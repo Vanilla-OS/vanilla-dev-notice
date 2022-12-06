@@ -47,7 +47,7 @@
                     <child>
                       <object class="AdwActionRow">
                         <property name="title" translatable="yes">Disclaimer</property>
-                        <property name="subtitle" translatable="yes">This is a development preview, so using it as a daily driver is not recommended. If you get any error, please report it to the testing-issues repository on GitHub or to the Vanilla OS Discord server, to help us improve Vanilla OS before the official release.</property>
+                        <property name="subtitle" translatable="yes">This is a development preview, so using it as a daily driver is not recommended. If you encounter any errors, please report them to the testing-issues repository on GitHub or to the Vanilla OS Discord server, to help us improve Vanilla OS before the official release.</property>
                       </object>
                     </child>
                     <child>
@@ -57,7 +57,7 @@
                         <child>
                           <object class="AdwActionRow">
                             <property name="title" translatable="yes">Blank Post-Installation Script</property>
-                            <property name="subtitle" translatable="yes">The installation process is divided into 2 stages: installation and post-installation. During the second stage the output is not displayed even if it is still running. Wait for the "Done!" appears to understand when everything is ready.</property>
+                            <property name="subtitle" translatable="yes">The installation process is divided into 2 stages: installation and post-installation. During the second stage, no output is displayed even if it is still running. Wait until "Done!" appears to know that everything is ready.</property>
                           </object>
                         </child>
                         <child>
@@ -69,13 +69,13 @@
                         <child>
                           <object class="AdwActionRow">
                             <property name="title" translatable="yes">Language Not Set</property>
-                            <property name="subtitle" translatable="yes">The language chosen during installation is not set in the system.</property>
+                            <property name="subtitle" translatable="yes">The language chosen during installation will not be set in the system.</property>
                           </object>
                         </child>
                         <child>
                           <object class="AdwActionRow">
                             <property name="title" translatable="yes">No Automatic Updates</property>
-                            <property name="subtitle" translatable="yes">Vanilla OS uses an ABRoot compatible update system. At the moment it is not possible to receive updates as this feature is still under development. You can use VSO to force an update, as we will see later in 'Suggested Tests'.</property>
+                            <property name="subtitle" translatable="yes">Vanilla OS uses an ABRoot compatible update system. At the moment, it is not possible to receive updates as this feature is still under active development. You can use VSO to force an update, as you can see in 'Suggested Tests'.</property>
                           </object>
                         </child>
                       </object>
@@ -83,7 +83,7 @@
                     <child>
                       <object class="AdwExpanderRow">
                         <property name="title" translatable="yes">Suggested Tests</property>
-                        <property name="subtitle" translatable="yes">We recommend you some simple tasks to help us test Vanilla OS. Tell us how it goes.</property>
+                        <property name="subtitle" translatable="yes">We recommend you try some simple tasks to help test Vanilla OS. Tell us how they went.</property>
                         <child>
                           <object class="AdwActionRow">
                             <property name="title" translatable="yes">1. Boot Into Vanilla OS</property>
@@ -93,31 +93,31 @@
                         <child>
                           <object class="AdwActionRow">
                             <property name="title" translatable="yes">2. Install Vanilla OS</property>
-                            <property name="subtitle" translatable="yes">If in Live mode, try to install Vanilla OS on your computer.</property>
+                            <property name="subtitle" translatable="yes">If in Live mode, try to install Vanilla OS to your computer.</property>
                           </object>
                         </child>
                         <child>
                           <object class="AdwActionRow">
                             <property name="title" translatable="yes">2. Complete The First Setup</property>
-                            <property name="subtitle" translatable="yes">Customize your installation by completing First Setup when it shows up. You can invoke it by typing ' vanilla-first-setup' anytime from Console.</property>
+                            <property name="subtitle" translatable="yes">Customize your installation by completing First Setup when it shows up. You can invoke it any time by typing 'vanilla-first-setup' into Console.</property>
                           </object>
                         </child>
                         <child>
                           <object class="AdwActionRow">
-                            <property name="title" translatable="yes">3. Install and Run a Software With Apx</property>
-                            <property name="subtitle" translatable="yes">Apx is the subsystem of Vanilla OS, every package installed through it is installed in a managed container, without messing up your system. Try to install any package with 'apx install [program]' and then run with 'apx run [program]'.</property>
+                            <property name="title" translatable="yes">3. Install and Run Software With Apx</property>
+                            <property name="subtitle" translatable="yes">Apx is the subsystem used by Vanilla OS. Every package installed through it is installed in a managed container, without messing up your system. Try to install any package with 'apx install [program]' and run it with with 'apx run [program]'.</property>
                           </object>
                         </child>
                         <child>
                           <object class="AdwActionRow">
                             <property name="title" translatable="yes">4. Check if ABRoot is Properly Set</property>
-                            <property name="subtitle" translatable="yes">ABRoot is the transaction system that manages system changes, applying them atomically in the second root partition (A/B), keeping you safe from potential breakage. Type 'sudo abroot get present' and 'sudo abroot get future' to check if both root partitions are configured.</property>
+                            <property name="subtitle" translatable="yes">ABRoot is the transaction system that manages system changes, applying them atomically in the second root partition (A/B), keeping you safe from potential breakage. Type 'sudo abroot get present' and 'sudo abroot get future' to check if both root partitions are configured properly.</property>
                           </object>
                         </child>
                         <child>
                           <object class="AdwActionRow">
-                            <property name="title" translatable="yes">5. Force an Update with VSO</property>
-                            <property name="subtitle" translatable="yes">VSO is the Vanilla System Operator, the tool you will use to operate on the system. You can use it for many things including automating tasks or forcing an update. Let's try the latter, type 'vso trigger-update --now'.</property>
+                            <property name="title" translatable="yes">5. Force an Update With VSO</property>
+                            <property name="subtitle" translatable="yes">VSO is the Vanilla System Operator, the tool you will use to manage the system. You can use it for many things, including automating tasks or forcing an update. Let's try the latter one: type 'vso trigger-update --now' into Console.</property>
                           </object>
                         </child>
                       </object>
