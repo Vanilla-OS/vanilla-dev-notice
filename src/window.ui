@@ -111,7 +111,7 @@
                         <child>
                           <object class="AdwActionRow">
                             <property name="title" translatable="yes">4. Check if ABRoot is Properly Set</property>
-                            <property name="subtitle" translatable="yes">ABRoot is the transaction system that manages system changes, applying them atomically in the second root partition (A/B), keeping you safe from potential breakage. Type 'sudo abroot get present' and 'sudo abroot get future' to check if both root partitions are properly configured.</property>
+                            <property name="subtitle" translatable="yes">ABRoot is the transaction system that manages system changes, applying them atomically in the second root partition (A/B), keeping you safe from potential breakage. Type 'sudo abroot get present' and 'sudo abroot get future' to check if both root partitions are configured properly.</property>
                           </object>
                         </child>
                         <child>
