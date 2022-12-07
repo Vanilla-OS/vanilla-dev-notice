@@ -1,5 +1,5 @@
-vanilla-dev-notice (0.0.3) kinetic; urgency=critical
+vanilla-dev-notice (0.0.4) kinetic; urgency=critical
 
-  * Install autostart unit
+  * Remove GNOME Extensions bug reference
 
  -- Mirko Brombin <send@mirko.pm>  Mon, 05 Dec 2022 22:01:00 +0000
