@@ -62,12 +62,6 @@
                         </child>
                         <child>
                           <object class="AdwActionRow">
-                            <property name="title" translatable="yes">No GNOME Extensions</property>
-                            <property name="subtitle" translatable="yes">GNOME Extensions cannot be installed and do not appear in the GNOME Extensions Manager.</property>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="AdwActionRow">
                             <property name="title" translatable="yes">Language Not Set</property>
                             <property name="subtitle" translatable="yes">The language chosen during installation will not be set in the system.</property>
                           </object>
