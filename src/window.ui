@@ -56,20 +56,8 @@
                         <property name="subtitle" translatable="yes">We are aware of some bugs that will be fixed in one of the next builds.</property>
                         <child>
                           <object class="AdwActionRow">
-                            <property name="title" translatable="yes">Blank Post-Installation Script</property>
-                            <property name="subtitle" translatable="yes">The installation process is divided into 2 stages: installation and post-installation. During the second stage, no output is displayed even if it is still running. Wait until "Done!" appears to know that everything is ready.</property>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="AdwActionRow">
-                            <property name="title" translatable="yes">Language Not Set</property>
-                            <property name="subtitle" translatable="yes">The language chosen during installation will not be set in the system.</property>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="AdwActionRow">
-                            <property name="title" translatable="yes">No Automatic Updates</property>
-                            <property name="subtitle" translatable="yes">Vanilla OS uses an ABRoot compatible update system. At the moment, it is not possible to receive updates as this feature is still under active development. You can use VSO to force an update, as you can see in 'Suggested Tests'.</property>
+                            <property name="title" translatable="yes">Undetected yet</property>
+                            <property name="subtitle" translatable="yes">No known issues detected yet.</property>
                           </object>
                         </child>
                       </object>

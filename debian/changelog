@@ -1,3 +1,9 @@
+vanilla-dev-notice (0.0.4-1) lunar; urgency=critical
+
+  * Lunar changes
+
+ -- Mirko Brombin <send@mirko.pm>  Mon, 05 Dec 2022 22:01:00 +0000
+
 vanilla-dev-notice (0.0.4) kinetic; urgency=critical
 
   * Remove GNOME Extensions bug reference
